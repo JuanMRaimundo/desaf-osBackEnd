@@ -111,7 +111,6 @@ export default class ProductManager {
 	async deleteProduct(id) {
 		try {
 			let products = await this.getProducts();
-			console.log("productos del delete" + products);
 			let index = products.findIndex((p) => p.id === id);
 			if (index !== -1) {
 				products.splice(index, 1);
@@ -135,39 +134,42 @@ export default class ProductManager {
 
 const productManager = new ProductManager(rootFile);
 
-productManager.addProducts(
-	"Zapatillas",
-	"Topper",
-	60578,
-	"./assets/img/zaps-topper",
-	369852146,
-	10
-);
-productManager.addProducts(
-	"Pantalón",
-	"Nike",
-	35000,
-	"./assets/img/pant-nike",
-	369852146,
-	15
-);
+async function addProductsAsync() {
+	await productManager.addProducts(
+		"Zapatillas",
+		"Topper",
+		60578,
+		"./assets/img/zaps-topper",
+		369852146,
+		10
+	);
+	await productManager.addProducts(
+		"Pantalón",
+		"Nike",
+		35000,
+		"./assets/img/pant-nike",
+		369852146,
+		15
+	);
 
-productManager.addProducts(
-	"Pantalón-2",
-	"Nike",
-	35000,
-	"./assets/img/pant-nike",
-	3696857,
-	15
-);
-productManager.addProducts(
-	"Short",
-	"UnderArmour",
-	15400,
-	"./assets/img/short-under",
-	3216549,
-	10
-);
+	await productManager.addProducts(
+		"Pantalón-2",
+		"Nike",
+		35000,
+		"./assets/img/pant-nike",
+		3696857,
+		15
+	);
+	await productManager.addProducts(
+		"Short",
+		"UnderArmour",
+		15400,
+		"./assets/img/short-under",
+		3216549,
+		10
+	);
+}
+addProductsAsync();
 productManager.getProductsById(5);
 productManager.deleteProduct(3);
 productManager.addProducts(

@@ -1,38 +1,29 @@
 [
-	{
-		"id": 1,
-		"title": "Pantalón-2",
-		"description": "Nike",
-		"price": 35000,
-		"thumbnail": "./assets/img/pant-nike",
-		"code": 3696857,
-		"stock": 15
-	},
-	{
-		"id": 2,
-		"title": "Pantalón",
-		"description": "Nike",
-		"price": 35000,
-		"thumbnail": "./assets/img/pant-nike",
-		"code": 369852146,
-		"stock": 15
-	},
-	{
-		"id": 3,
-		"title": "Botines Tapón aluminio",
-		"description": "Puma-12",
-		"price": 14588,
-		"thumbnail": "./assets/img/img--s",
-		"code": 36545454,
-		"stock": 12
-	},
-	{
-		"id": 4,
-		"title": "Botines Tapón aluminio",
-		"description": "Puma-12",
-		"price": 12500,
-		"thumbnail": "./assets/img/bot-pum",
-		"code": 65735435,
-		"stock": 16
-	}
+     {
+          "id": 3,
+          "title": "Pantalón",
+          "description": "Nike",
+          "price": 35000,
+          "thumbnail": "./assets/img/pant-nike",
+          "code": 369852146,
+          "stock": 15
+     },
+     {
+          "id": 4,
+          "title": "Pantalón-2",
+          "description": "Nike",
+          "price": 35000,
+          "thumbnail": "./assets/img/pant-nike",
+          "code": 3696857,
+          "stock": 15
+     },
+     {
+          "id": 5,
+          "title": "Short",
+          "description": "UnderArmour",
+          "price": 15400,
+          "thumbnail": "./assets/img/short-under",
+          "code": 3216549,
+          "stock": 10
+     }
 ]
