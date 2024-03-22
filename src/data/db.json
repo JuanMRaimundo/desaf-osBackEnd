@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"title": "Remera",
+		"description": "Nike",
+		"price": 20000,
+		"thumbnail": "./assets/img/rem-nike",
+		"code": 31252146,
+		"stock": 20
+	},
+	{
+		"id": 2,
+		"title": "Remera",
+		"description": "Adidas",
+		"price": 35000,
+		"thumbnail": "./assets/img/rem-ad",
+		"code": 36923146,
+		"stock": 15
+	},
+	{
+		"id": 3,
+		"title": "Pantalon",
+		"description": "Nike",
+		"price": 35000,
+		"thumbnail": "./assets/img/pant-nike",
+		"code": 369852146,
+		"stock": 15
+	},
+	{
+		"id": 4,
+		"title": "Pantalon-2",
+		"description": "Nike",
+		"price": 35000,
+		"thumbnail": "./assets/img/pant-nike",
+		"code": 3696857,
+		"stock": 15
+	},
+	{
+		"id": 5,
+		"title": "Short",
+		"description": "UnderArmour",
+		"price": 15400,
+		"thumbnail": "./assets/img/short-under",
+		"code": 3216549,
+		"stock": 10
+	},
+	{
+		"id": 6,
+		"title": "Pantalon",
+		"description": "Puma",
+		"price": 11000,
+		"thumbnail": "./assets/img/pant-pum",
+		"code": 369234146,
+		"stock": 10
+	},
+	{
+		"id": 7,
+		"title": "Botines",
+		"description": "Nike",
+		"price": 40000,
+		"thumbnail": "./assets/img/bot-nike",
+		"code": 369852344446,
+		"stock": 15
+	}
+]
